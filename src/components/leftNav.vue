@@ -3,7 +3,7 @@
         v-model="drawer"
         :rail="rail"
         permanent
-        @click="rail = false"
+        @click="rail = true"
       >
         <v-list-item
           prepend-avatar="https://randomuser.me/api/portraits/men/85.jpg"
