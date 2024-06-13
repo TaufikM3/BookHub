@@ -3,7 +3,7 @@
         v-model="drawer"
         :rail="rail"
         permanent
-        @click="rail = false"
+        @click="rail = true"
       >
         <v-list-item
           prepend-avatar="https://randomuser.me/api/portraits/men/85.jpg"
@@ -22,9 +22,11 @@
         <v-divider></v-divider>
 
         <v-list density="compact" nav>
-          <v-list-item prepend-icon="mdi-home-city" title="Home" value="home"></v-list-item>
-          <v-list-item prepend-icon="mdi-account" title="My Account" value="account"></v-list-item>
-          <v-list-item prepend-icon="mdi-account-group-outline" title="Users" value="users"></v-list-item>
+          <v-list-item prepend-icon="mdi-home-city"  value="/"></v-list-item>
+          <v-list-item prepend-icon="mdi-account"  value="/Buku"></v-list-item>
+          <v-list-item prepend-icon="mdi-account-group-outline"  value="Kategori"></v-list-item>
+          <v-list-item prepend-icon="mdi-account"  value="Pengguna"></v-list-item>
+          <v-list-item prepend-icon="mdi-account" value="Pesanan"></v-list-item>
         </v-list>
       </v-navigation-drawer>
       <v-main style="height: 250px"></v-main>
