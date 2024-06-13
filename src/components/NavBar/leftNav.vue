@@ -21,25 +21,25 @@
         <v-divider></v-divider>
 
         <v-list density="compact" nav>
-          <v-list-item prepend-icon="mdi-account"  value="/Buku" color="primary">
+          <v-list-item prepend-icon="mdi-home" value="Home" :to="'/'" color="primary">
             <v-tooltip
             activator="parent"
             location="end">
             Home</v-tooltip>
           </v-list-item>
-          <v-list-item prepend-icon="mdi-account-group-outline"  value="Kategori">
+          <v-list-item prepend-icon="mdi-account-group-outline" value="Kategori" :to="'/Kategori'" color="primary">
+            <v-tooltip
+            activator="parent"
+            location="end">
+            Kategori</v-tooltip>
+          </v-list-item>
+          <v-list-item prepend-icon="mdi-account" value="Pengguna" color="primary">
             <v-tooltip
             activator="parent"
             location="end">
             Home</v-tooltip>
           </v-list-item>
-          <v-list-item prepend-icon="mdi-account"  value="Pengguna">
-            <v-tooltip
-            activator="parent"
-            location="end">
-            Home</v-tooltip>
-          </v-list-item>
-          <v-list-item prepend-icon="mdi-account" value="Pesanan">
+          <v-list-item prepend-icon="mdi-account" value="Pesanan" color="primary">
             <v-tooltip
             activator="parent"
             location="end">
