@@ -39,11 +39,11 @@
             location="end">
             Home</v-tooltip>
           </v-list-item>
-          <v-list-item prepend-icon="mdi-account" value="Pesanan" color="primary">
+          <v-list-item prepend-icon="mdi-account" value="Pesanan" :to="'/pesanan'" color="primary">
             <v-tooltip
             activator="parent"
             location="end">
-            Home</v-tooltip>
+            Pesanan</v-tooltip>
           </v-list-item>
         </v-list>
       </v-navigation-drawer>
