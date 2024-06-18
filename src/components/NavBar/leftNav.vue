@@ -45,6 +45,12 @@
             location="end">
             Pesanan</v-tooltip>
           </v-list-item>
+          <v-list-item prepend-icon="mdi-account" value="Manajemen" :to="'/Manajemen'" color="primary">
+            <v-tooltip
+            activator="parent"
+            location="end">
+            Manajemen</v-tooltip>
+          </v-list-item>
         </v-list>
       </v-navigation-drawer>
       <v-main style="height: 250px"></v-main>

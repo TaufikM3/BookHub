@@ -24,6 +24,11 @@ const router = createRouter({
       name: 'pesanan',
       component: () => import('@/components/PesananForm.vue')
     },
+    {
+      path: '/Manajemen',
+      name: 'Manajemen',
+      component: () => import('@/components/ManajemenForm.vue')
+    },
 
   ]
 })
